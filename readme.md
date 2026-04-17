@@ -2,7 +2,7 @@
 
 一个基于 Web 的交互式数字逻辑电路模拟器。无需安装，直接在浏览器中通过拖放逻辑门、开关和灯泡来构建和模拟数字电路，并观察实时信号流。
 
-**在线体验**: [./index.html]
+**在线体验**: [Github-pages](https://system-intel-mic.github.io/Logic-Gate-Simulator)
 
 ![模拟器界面截图](./img.png)
 
@@ -44,4 +44,17 @@
 
 ## 📁 项目结构
 Logic-Gate-Simulator
- |index.html
+.
+├── index.html  # 主文件，包含所有HTML、CSS和JavaScript代码
+├── img.png     #项目截屏
+└── README.md   # 本说明文件
+项目结构极其简单，所有逻辑、样式和交互都封装在一个独立的HTML文件中，易于分发、嵌入和修改。
+
+## 🛠 技术栈
+
+- **HTML5**：页面结构。
+- **CSS3**：现代化UI，包括渐变、阴影、Flexbox布局，实现毛玻璃和霓虹质感。
+- **Vanilla JavaScript (ES5+)**：实现所有模拟器核心逻辑，无任何外部框架依赖。
+- **Canvas 2D API**：用于所有图形和电路的渲染。
+
+**如果你觉得这个项目有用，请给它一个 ⭐️ ！**
